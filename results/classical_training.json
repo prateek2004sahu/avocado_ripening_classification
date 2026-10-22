@@ -1,0 +1,9 @@
+{
+  "selected": "SVM (RBF)",
+  "svm_val_f1": 0.9836021505376344,
+  "rf_val_f1": 0.9836021505376344,
+  "svm_best_params": {
+    "svc__C": "10",
+    "svc__gamma": "0.01"
+  }
+}

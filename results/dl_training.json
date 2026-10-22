@@ -1,0 +1,5 @@
+{
+  "train_time_sec": 95.3,
+  "device": "cuda",
+  "epochs_run": 11
+}

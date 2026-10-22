@@ -1,0 +1,48 @@
+{
+  "classes": [
+    "blackspot",
+    "canker",
+    "fresh",
+    "grenning"
+  ],
+  "counts": {
+    "blackspot": 206,
+    "canker": 201,
+    "fresh": 314,
+    "grenning": 369
+  },
+  "imbalance_ratio": 1.84,
+  "cleaning": {
+    "total_found": 1090,
+    "corrupted_removed": 0,
+    "duplicates_removed": 0,
+    "after_cleaning": 1090
+  },
+  "n_unique_image_sizes": 149,
+  "most_common_size": [
+    800,
+    800
+  ],
+  "median_brightness": 107.7,
+  "brightness_outliers_in_sample": 0,
+  "sampled_images": 1007,
+  "mean_glare_fraction": 0.0658,
+  "a_star_mean_per_class": {
+    "blackspot": 132.63,
+    "canker": 130.86,
+    "fresh": 141.84,
+    "grenning": 124.4
+  },
+  "brightness_mean_per_class": {
+    "blackspot": 110.7,
+    "canker": 101.4,
+    "fresh": 166.4,
+    "grenning": 58.7
+  },
+  "background_brightness_mean_per_class": {
+    "blackspot": 130.2,
+    "canker": 117.3,
+    "fresh": 149.9,
+    "grenning": 9.9
+  }
+}

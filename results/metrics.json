@@ -1,0 +1,159 @@
+{
+  "class_names": [
+    "blackspot",
+    "canker",
+    "fresh",
+    "grenning"
+  ],
+  "n_test": 164,
+  "results": {
+    "Approach 1: SVM (RBF) (HSV+LAB+LBP)": {
+      "accuracy": 0.9878048780487805,
+      "precision_macro": 0.9836021505376344,
+      "recall_macro": 0.9836021505376344,
+      "f1_macro": 0.9836021505376344,
+      "f1_weighted": 0.9878048780487805,
+      "per_class": {
+        "blackspot": {
+          "precision": 0.967741935483871,
+          "recall": 0.967741935483871,
+          "f1-score": 0.967741935483871,
+          "support": 31.0
+        },
+        "canker": {
+          "precision": 0.9666666666666667,
+          "recall": 0.9666666666666667,
+          "f1-score": 0.9666666666666667,
+          "support": 30.0
+        },
+        "fresh": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 47.0
+        },
+        "grenning": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 56.0
+        },
+        "accuracy": 0.9878048780487805,
+        "macro avg": {
+          "precision": 0.9836021505376344,
+          "recall": 0.9836021505376344,
+          "f1-score": 0.9836021505376344,
+          "support": 164.0
+        },
+        "weighted avg": {
+          "precision": 0.9878048780487805,
+          "recall": 0.9878048780487805,
+          "f1-score": 0.9878048780487805,
+          "support": 164.0
+        }
+      },
+      "cm": [
+        [
+          30,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          29,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          47,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          56
+        ]
+      ],
+      "latency_ms_cpu": 11.202254295349121,
+      "size_mb": 0.175519
+    },
+    "Approach 2: MobileNetV2 transfer learning": {
+      "accuracy": 0.975609756097561,
+      "precision_macro": 0.9672043010752688,
+      "recall_macro": 0.9672043010752688,
+      "f1_macro": 0.9672043010752688,
+      "f1_weighted": 0.975609756097561,
+      "per_class": {
+        "blackspot": {
+          "precision": 0.9354838709677419,
+          "recall": 0.9354838709677419,
+          "f1-score": 0.9354838709677419,
+          "support": 31.0
+        },
+        "canker": {
+          "precision": 0.9333333333333333,
+          "recall": 0.9333333333333333,
+          "f1-score": 0.9333333333333333,
+          "support": 30.0
+        },
+        "fresh": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 47.0
+        },
+        "grenning": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 56.0
+        },
+        "accuracy": 0.975609756097561,
+        "macro avg": {
+          "precision": 0.9672043010752688,
+          "recall": 0.9672043010752688,
+          "f1-score": 0.9672043010752688,
+          "support": 164.0
+        },
+        "weighted avg": {
+          "precision": 0.975609756097561,
+          "recall": 0.975609756097561,
+          "f1-score": 0.975609756097561,
+          "support": 164.0
+        }
+      },
+      "cm": [
+        [
+          29,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          47,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          56
+        ]
+      ],
+      "latency_ms_cpu": 35.23555278778076,
+      "size_mb": 9.801753
+    }
+  }
+}
